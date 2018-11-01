@@ -3,7 +3,7 @@ const CONF = {
     serverHost: 'localhost',
     tunnelServerUrl: '',
     tunnelSignatureKey: '27fb7d1c161b7ca52d73cce0f1d833f9f5b5ec89',
-      // 腾讯云相关配置可以查看云 API 秘钥控制台：https://console.cloud.tencent.com/capi
+    // 腾讯云相关配置可以查看云 API 秘钥控制台：https://console.cloud.tencent.com/capi
     qcloudAppId: '1255673564',
     qcloudSecretId: 'AKIDhGhwyn6p7EBwhMuAGD50mMjtrdEcOqhO',
     qcloudSecretKey: 'd4JMDsLchZFk8JI7lDTXP5YpvpW1NXXL',
@@ -36,6 +36,15 @@ const CONF = {
         // pass: 'wx76d5ee33e4cf5329', // 上线密码
         char: 'utf8'
     },
+    // mysql: {
+    //     host: 'db4free.net',
+    //     port: 3306,
+    //     user: 'lizheng1255',
+    //     db: 'db_lee',
+    //     pass: 'lizheng1255', // 本地开发
+    //     // pass: 'wx76d5ee33e4cf5329', // 上线密码
+    //     char: 'utf8'
+    // },
 
     cos: {
         /**
